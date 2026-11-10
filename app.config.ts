@@ -4,22 +4,38 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Hügelmänner Plattler",
+  description:
+    "Um site para o grupo cultural alemão Hügelmänner Plattler: conheça o grupo e veja os itens disponíveis para compra.",
+  emoji: "🥨",
+  accent: "#1d5fa8",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Sobre o grupo",
+      description:
+        "Uma página com a história, os integrantes e a tradição do Plattler.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Catálogo de produtos",
+      description: "Lista dos itens à venda com foto, preço e descrição.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Carrinho de compras",
+      description: "Adicione itens ao carrinho e veja o total do pedido.",
+    },
+    {
+      title: "Agenda de apresentações",
+      description:
+        "Próximas apresentações e eventos do grupo em um calendário simples.",
+    },
+    {
+      title: "Galeria de fotos",
+      description: "Fotos e vídeos das apresentações do grupo.",
+    },
+    {
+      title: "Contratar apresentação",
+      description:
+        "Formulário para pedir uma apresentação do grupo em um evento.",
     },
   ] satisfies Feature[],
 };
